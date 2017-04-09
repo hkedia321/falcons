@@ -1,0 +1,69 @@
+.padding-top-0{
+	padding-top: 0px !important;
+}
+.padding-left-0{
+	padding-left: 0px !important;
+}
+.padding-right-0{
+	padding-right: 0px !important;
+}
+.padding-bottom-0{
+	padding-bottom: 0px !important;
+}
+.margin-top-0{
+	margin-top: 0px !important;
+}
+.margin-left-0{
+	margin-left: 0px !important;
+}
+.margin-right-0{
+	margin-right: 0px !important;
+}
+.margin-bottom-0{
+	margin-bottom: 0px !important;
+}
+.text-center{
+	text-align: center;
+}
+.text-black{
+	color: #000 !important;
+}
+.smooth-transition{
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.acm-div{
+	text-align: center;
+	display: block;
+}
+.acm-div .acm-img{
+	margin-bottom: -10px;
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.acm-div .acm-text{
+	color: #fff;
+	font-size: 11px;
+	text-align: center;
+	display: block;
+}
+.acm-div:hover .acm-text .fa{
+	color: #071871;
+}
+.footer-falcons-logo{
+	width: 70%;
+}
+@media(min-width: 769px){
+	.acm-div{
+		margin-top: 100px;
+	}
+	.acm-div .acm-img{
+		width: 85%;
+	}
+}

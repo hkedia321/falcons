@@ -1,0 +1,47 @@
+.scroll-bar:horizontal .track,
+ .scroll-bar:vertical .track,
+ .custom-jfx-list-view .scroll-bar:horizontal .track,
+ .custom-jfx-list-view .scroll-bar:vertical .track {
+ 	background-color:transparent;
+ 	border-color:transparent;
+ 	background-radius: 0em;
+ 	border-radius:2em;
+ }
+
+ /* The increment and decrement button CSS class of scrollbar */
+ .scroll-bar:horizontal .increment-button ,
+ .scroll-bar:horizontal .decrement-button ,
+ .custom-jfx-list-view .scroll-bar:horizontal .increment-button ,
+ .custom-jfx-list-view .scroll-bar:horizontal .decrement-button {
+     background-color:transparent;
+ 	background-radius: 0em;
+ 	padding:0 0 10 0;
+ }
+
+ /* The increment and decrement button CSS class of scrollbar */
+ .scroll-bar:vertical .increment-button ,
+ .scroll-bar:vertical .decrement-button ,
+ .custom-jfx-list-view .scroll-bar:vertical .increment-button ,
+ .custom-jfx-list-view .scroll-bar:vertical .decrement-button {
+     background-color:transparent;
+ 	background-radius: 0em;
+ 	padding:0 10 0 0;
+ }
+
+  .scroll-bar .increment-arrow,
+  .scroll-bar .decrement-arrow,
+ .custom-jfx-list-view  .scroll-bar .increment-arrow,
+ .custom-jfx-list-view  .scroll-bar .decrement-arrow {
+ 	shape:" ";
+ 	padding:0;
+ }
+
+ /* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+ .scroll-bar:horizontal .thumb,
+ .scroll-bar:vertical .thumb ,
+ .custom-jfx-list-view .scroll-bar:horizontal .thumb,
+ .custom-jfx-list-view .scroll-bar:vertical .thumb{
+    background-color: derive(#009688, 50%);
+ 	background-insets: 2, 0, 0;
+ 	background-radius: 2em;
+ }

@@ -1,0 +1,387 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+<head>
+
+    <!-- DEFAULT META TAGS -->
+    <?php
+    include('includes/head.php');
+    ?>
+    
+    <!-- FONTS -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400italic,700italic" rel="stylesheet" type="text/css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" id="default-style-css"  href="files/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="fontawesome-style-css" href="files/css/font-awesome.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="ionic-icons-style-css" href="files/css/ionicons.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="lightcase-css" href="files/css/lightcase.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="owlcarousel-css" href="files/css/owl.carousel.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="isotope-style-css"  href="files/css/isotope.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="mqueries-style-css"  href="files/css/mqueries.css" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="files/css/mycss/ch_common.css" />
+    <link rel="stylesheet" type="text/css" href="files/css/mycss/ch_style7.css" /> 
+    <link rel="stylesheet" type="text/css" href="files/css/mycss/mystyle.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="files/uploads/favicon.png"/>
+    
+    <!-- DOCUMENT TITLE -->
+    <title>Assailing Falcons | VIT University</title>
+    <style type="text/css">
+        #sr-demo-options{
+            display: none !important;
+        }
+        .more-videos-div{
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+        .more-videos-but{
+            background: transparent !important;
+            color: #fff !important;
+            background-color: transparent;
+            border-radius: 50px;
+            padding: 3px 9px;
+        }
+        .more-videos-but:hover{
+            background-color: #fff !important;
+            color: #000 !important;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- PAGELOADER -->
+    <div id="page-loader">
+       <div class="page-loader-inner">
+          <span class="loader-figure"></span>
+          <img class="loader-logo" src="files/uploads/logo-sudo-scroll.png" srcset="files/uploads/logo-sudo-scroll.png 1x, files/uploads/logo-sudo-scroll@2x.png 2x" alt="Loader Logo">
+      </div>
+  </div>
+  <!-- PAGELOADER -->
+
+  <!-- PAGE CONTENT -->
+  <div id="page-content" class="">
+
+   <!-- HEADER -->
+   <header id="header" class="header-bordered header-transparent transparent-light">        
+      <div class="header-inner clearfix">
+
+        <!-- LOGO -->
+        <div id="logo" class="left-float">
+            <a href="index.html">
+               <img id="scroll-logo" src="files/uploads/logo-sudo-scroll.png" srcset="files/uploads/logo-sudo-scroll.png 1x, files/uploads/logo-sudo-scroll@2x.png 2x" alt="Logo Scroll">
+               <img id="dark-logo" src="files/uploads/logo-sudo-dark.png" srcset="files/uploads/logo-sudo-dark.png 1x, files/uploads/logo-sudo-dark@2x.png 2x" alt="Logo Dark">
+               <img id="light-logo" src="files/uploads/logo-sudo-light.png" srcset="files/uploads/logo-sudo-light.png 1x, files/uploads/logo-sudo-light@2x.png 2x" alt="Logo Light">
+           </a>
+       </div>
+
+       <!-- MAIN NAVIGATION -->
+       <div id="menu" class="right-float">
+         <a href="#" class="responsive-nav-toggle"><span class="hamburger"></span></a>
+         <div class="menu-inner">
+            <nav id="main-nav">
+                <ul>
+                    <li class="menu-item"><a href="index.php">Home</a>
+                    </li>
+
+                    <li class="menu-item"><a href="about-classic.html">Planes</a>
+                    </li>
+
+                    <li class="menu-item"><a href="portfolio-modern-fullwidth.html">Teams</a>
+                    </li>
+
+                    <li class="menu-item"><a href="header-light.html">Events</a>
+                    </li>
+
+                    <li class="menu-item"><a href="blog-modern-fullwidth.html">Media</a>  
+                    </li>
+
+                    <li class="menu-item"><a href="shop-grid-fullwidth.html">Sponsors</a>
+                    </li>
+
+                    <li class="menu-item"><a href="elements-columns.html">Support Us</a>
+                    </li>
+                    <li class="menu-item"><a href="elements-columns.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div><!-- END .menu-inner -->
+    </div><!-- END #menu -->
+
+</div> <!-- END .header-inner -->
+</header>
+
+<!-- HERO  -->
+<section id="hero" class="hero-full text-light videobg-section"
+data-videotype="youtube" 
+data-videoyoutubeid="rVcTPfBxOPU"
+data-videoratio="16/9"
+data-videoloop="false"
+data-videomute="false"
+data-videoposter="files/uploads/neon-lights-poster.jpg"
+data-videooverlaycolor="#000000"
+data-videooverlayopacity="0.4"
+>
+
+<div id="page-title" class="wrapper align-center">
+    <h1 class="uppercase"><strong>Assailing Falcons</strong></h1>
+    <h4 class="subtitle-1"><b>Fly From Within</b></h4>
+</div> <!-- END #page-title -->
+<div class="more-videos-div">
+    <button class="more-videos-but">more videos</button>
+</div>
+</section>
+<!-- HERO -->   
+<!-- PAGEBODY -->
+<section id="page-body" class="padding-top-0">
+
+   <div class="column-section boxed-sticky adapt-height clearfix">
+       <div class="column one-half bigpadding" style="background: transparent">
+           <h4 class="uppercase"><strong>Who We Are ?</strong></h4>
+           <hr class="small thick">
+           <p>Team Assailing Falcons is a student aero design team of VIT University. It aims at fabricating and designing <b>radio controlled</b> aircrafts. Over the span of 6 years, with immense research and advancements, the team has created some of the finest RC aircrafts. Currently, Assailing Falcons holds an overall 9th position in world rankings, issued by SAE (Society of Automotive Engineers) International. With experienced professionals and mentors, there is perfection.</p>
+       </div>
+       <div class="column one-half last-col" style="background:url(files/images/whoarewe.jpg) center center;background-size:cover;">
+
+       </div>
+   </div>
+   <div class="column-section boxed-sticky adapt-height clearfix">
+    <div class="column one-half" style="background:url(files/images/whatwedo.jpg) center center;background-size:cover;"></div>
+    <div class="column one-half last-col bigpadding" style="background: transparent">
+       <h4 class="uppercase"><strong>What We Do ?</strong></h4>
+       <hr class="small thick">
+       <p>On a simpler aspect, fabricating and designing the aircraft is the prime interest of work for the team. Right from structuring, assembling, circuiting, etc. to presentations and representation is done on a day to day basis. By having collaborations with reliable and dedicated partners, extensive research and development of components takes place from time to time. Many progresses and changes have been made which gives Assailing Falcons an edge over the others in its league.</p>
+   </div>
+</div>
+
+<div class="spacer-big"></div>
+
+<div class="column-section boxed-sticky clearfix">
+    <div class="wrapper">
+        <h4 class="uppercase"><strong>Proving  Our Mettle</strong></h4>
+        <hr class="small thick">
+    </div>
+    <div class="spacer-small"></div>
+    <div class="column one-third nopadding">
+        <a href="#" class="thumb-overlay text-light overlay-effect-1">
+            <img src="files/uploads/architecture-3.jpg" alt="SEO Name">
+            <div class="overlay-caption">
+                <h4 class="uppercase"><strong>Springer India</strong></h4>
+                <h6 class="subtitle-1">See all our resedential PortfolioSee all our resedential Portfolio See all our resedential Portfolio</h6>
+            </div>
+        </a>
+    </div>
+    <div class="column one-third nopadding">
+        <a href="#" class="thumb-overlay text-light overlay-effect-1">
+            <img src="files/uploads/architecture-4.jpg" alt="SEO Name">
+            <div class="overlay-caption">
+                <h4 class="uppercase"><strong>BITS Hyderabad</strong></h4>
+                <h6 class="subtitle-1">We're also known for beatiful interior design</h6>
+            </div>
+        </a>
+    </div>
+    <div class="column one-third last-col nopadding">
+        <a href="#" class="thumb-overlay text-light overlay-effect-1">
+            <img src="files/uploads/architecture-5.jpg" alt="SEO Name">
+            <div class="overlay-caption">
+                <h4 class="uppercase"><strong>Best Student Team</strong></h4>
+                <h6 class="subtitle-1">Our public building shows the creativity</h6>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="spacer-big"></div>
+
+<div class="wrapper">
+
+   <div class="column-section clearfix">
+       <div class="column two-fifth">
+        <h2 class="uppercase"><strong>Our latest Projects</strong></h2>
+        <hr class="small thick">
+    </div>
+    <div class="column two-fifth">
+       <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.</p>
+   </div>
+   <div class="column one-fifth last-col">
+       <div class="sr-counter counter-big"><span class="counter-value">11</span></div>
+       <h4 class="uppercase">Projects</h4>
+   </div>
+</div>
+
+</div> <!-- END .wrapper -->
+
+<div class="spacer-big"></div>
+<!-- 
+<div id="gallery-grid" class="isotope-grid gallery-container style-column-3 clearfix">
+    <div class="isotope-item">
+        <a href="files/uploads/architecture-6.jpg" data-rel="lightcase:gallery1" class="thumb-overlay overlay-effect-1 text-light">
+            <img src="files/uploads/architecture-6.jpg" alt="SEO IMG NAME">
+        </a>
+    </div>
+    <div class="isotope-item">
+        <a href="files/uploads/architecture-7.jpg" data-rel="lightcase:gallery1" class="thumb-overlay overlay-effect-1 text-light">
+            <img src="files/uploads/architecture-7.jpg" alt="SEO IMG NAME">
+        </a>
+    </div>
+    <div class="isotope-item">
+        <a href="files/uploads/architecture-8.jpg" data-rel="lightcase:gallery1" class="thumb-overlay overlay-effect-1 text-light">
+            <img src="files/uploads/architecture-8.jpg" alt="SEO IMG NAME">
+        </a>
+    </div>
+    <div class="isotope-item">
+        <a href="files/uploads/architecture-9.jpg" data-rel="lightcase:gallery1" class="thumb-overlay overlay-effect-1 text-light">
+            <img src="files/uploads/architecture-9.jpg" alt="SEO0IMG NAME">
+        </a>
+    </div>
+    <div class="isotope-item">
+        <a href="files/uploads/architecture-10.jpg" data-rel="lightcase:gallery1" class="thumb-overlay overlay-effect-1 text-light">
+            <img src="files/uploads/architecture-10.jpg" alt="SEO IMG NAME">
+        </a>
+    </div>
+    <div class="isotope-item">
+        <a href="files/uploads/architecture-11.jpg" data-rel="lightcase:gallery1" class="thumb-overlay overlay-effect-1 text-light">
+            <img src="files/uploads/architecture-11.jpg" alt="SEO IMG NAME">
+        </a>
+    </div>
+</div> -->
+<ul class="ch-grid margin-left-0">
+    <li>
+        <div class="ch-item">               
+            <div class="ch-info">
+                <div class="ch-info-front ch-img-1"></div>
+                <div class="ch-info-back">
+                    <h3>Mouse</h3>
+                    <p>by Alexander Shumihin <a href="http://drbl.in/eAoj">View on Dribbble</a></p>
+                </div>  
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="ch-item">               
+            <div class="ch-info">
+               <h3 class="text-center text-black">Our Notable Alumni</h3>  
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="ch-item">
+            <div class="ch-info">
+                <div class="ch-info-front ch-img-2"></div>
+                <div class="ch-info-back">
+                    <h3>You</h3>
+                    <p>by Zoe Ingram <a href="http://drbl.in/eCcV">View on Dribbble</a></p>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="ch-item">
+            <div class="ch-info">
+                <div class="ch-info-front ch-img-3"></div>
+                <div class="ch-info-back">
+                    <h3>Love</h3>
+                    <p>by Eileen Tjan <a href="http://drbl.in/ewTL">View on Dribbble</a></p>
+                </div>
+            </div>
+        </div>
+    </li>
+     <li>
+        <div class="ch-item">
+            <div class="ch-info">
+                <div class="ch-info-front ch-img-4"></div>
+                <div class="ch-info-back">
+                    <h3>Love</h3>
+                    <p>by Eileen Tjan <a href="http://drbl.in/ewTL">View on Dribbble</a></p>
+                </div>
+            </div>
+        </div>
+    </li>
+     <li>
+        <div class="ch-item">
+            <div class="ch-info">
+                <div class="ch-info-front ch-img-5"></div>
+                <div class="ch-info-back">
+                    <h3>Love</h3>
+                    <p>by Eileen Tjan <a href="http://drbl.in/ewTL">View on Dribbble</a></p>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>   
+
+<div class="spacer-big"></div>
+<div class="fullwidth-section text-light parallax-section" data-parallax-image="files/uploads/index-main-bg-1.jpg">
+    <div class="fullwidth-content wrapper-small align-center">
+
+        <div class="owl-slider content-slider nav-light" data-dots="true">
+            <div>
+                <blockquote>In any moment of decision, the best thing you can do is the right thing, the next best thing is the wrong thing, and the worst thing you can do is nothing.
+                    <cite>Theodore Roosevelt</cite>
+                </blockquote>
+            </div>
+            <div>
+                <blockquote>As a designer there are not many other templates that comes close to this. This template really understands the main purposes of webdesign.
+                    <cite>Patrick Hamilton</cite>
+                </blockquote>
+            </div>
+        </div> 
+
+    </div>
+</div> <!-- END .fullwidth-section -->
+
+<div class="spacer-big"></div>
+
+<div class="wrapper">
+
+   <div class="column-section adapt-height vertical-center clearfix">
+    <div class="column one-fourth">
+       <h4>Got A Question?</h4>
+   </div>
+   <div class="column two-fourth align-center">
+       <h5 class="subtitle-1">The bedding was hardly able to cover it and seemed ready to slide off.</h5>
+   </div>
+   <div class="column one-fourth last-col align-center">
+       <a href="#" class="sr-button">Contact us</a>
+   </div>
+</div>
+
+</div> <!-- END .wrapper -->
+
+<div class="spacer-big"></div>
+
+</section>
+<!-- PAGEBODY -->
+
+
+<!-- FOOTER -->  
+<?php 
+include('includes/footer.php');
+?>
+<!-- FOOTER -->
+
+</div> <!-- END #page-content -->
+<!-- PAGE CONTENT -->
+
+<!-- SCRIPTS -->
+<script src="files/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="files/js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="files/js/tweenMax.js"></script>
+<script type="text/javascript" src="files/js/jquery.backgroundparallax.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.owl.carousel.js"></script>
+<script type="text/javascript" src="files/js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.imagesloaded.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.lightcase.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.min.bgvideo.js"></script>
+<script type="text/javascript" src="files/js/script.js"></script>
+<!-- SCRIPTS -->
+
+</body>
+
+<!-- Mirrored from www.spab-rice.com/themeforest/sudo/demo/index-architecture.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Feb 2017 12:11:03 GMT -->
+</html>

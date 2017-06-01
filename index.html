@@ -179,7 +179,7 @@ data-videooverlayopacity="0.4"
 </style>
     <div class="column one-third nopadding">
         <a href="#" class="thumb-overlay text-light overlay-effect-1">
-            <img src="springer.jpg" alt="SEO Name" class="image">
+            <img src="files/images/springer.jpg" alt="SEO Name" class="image">
             <div class="overlay-caption">
                 <h4 class="text"><strong>SPRINGER INDIA</strong></h4>
                 <h6 class="subtitle-2">See all our resedential PortfolioSee all our resedential Portfolio See all our resedential Portfolio</h6>
@@ -188,7 +188,7 @@ data-videooverlayopacity="0.4"
     </div>
     <div class="column one-third nopadding">
         <a href="#" class="thumb-overlay text-light overlay-effect-1" class="image">
-            <img src="techexpo.jpg" alt="SEO Name" >
+            <img src="files/images/techexpo.jpg" alt="SEO Name" >
             <div class="overlay-caption">
                 <h4 class="text"><strong>BITS HYDERABAD</strong></h4>
                 <h6 class="subtitle-2">We're also known for beatiful interior design</h6>
@@ -197,7 +197,7 @@ data-videooverlayopacity="0.4"
     </div>
     <div class="column one-third last-col nopadding">
         <a href="#" class="thumb-overlay text-light overlay-effect-1">
-            <img src="firsttestflight.jpg" alt="SEO Name" class="image">
+            <img src="files/images/firsttestflight.jpg" alt="SEO Name" class="image">
             <div class="overlay-caption">
                 <h4 class="text"><strong>BEST STUDENT TEAM</strong></h4>
                 <h6 class="subtitle-2">Our public building shows the creativity</h6>
@@ -239,6 +239,9 @@ data-videooverlayopacity="0.4"
   border-radius: 15px 50px;
   color: white;
   padding: 16px 32px;
+}
+.subtitle-2{
+	font-weight: 900;
 }
 </style>
 
@@ -315,6 +318,17 @@ data-videooverlayopacity="0.4"
             </div>
         </div>
     </li>
+    <li style=""> 
+        <div class="ch-item">               
+            <div class="ch-info">
+                <div class="ch-info-front ch-img-1"></div>
+                <div class="ch-info-back">
+                    <h3>Mouse</h3>
+                    <p>by Alexander Shumihin <a href="http://drbl.in/eAoj">View on Dribbble</a></p>
+                </div>  
+            </div>
+        </div>
+    </li>
     <li style="">
         <div class="ch-item">
             <div class="ch-info">
@@ -369,9 +383,15 @@ data-videooverlayopacity="0.4"
     	float: left;
     }
     ul li:first-child{
+    	display: none;
     	margin-top: 0px;
 
     }
+}
+@media only screen and (min-width: 769px) {
+	ul li:nth-child(3){
+		display: none;
+	}
 }
 </style>
 <div class="spacer-big"></div>

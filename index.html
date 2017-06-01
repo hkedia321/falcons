@@ -179,32 +179,68 @@ data-videooverlayopacity="0.4"
 </style>
     <div class="column one-third nopadding">
         <a href="#" class="thumb-overlay text-light overlay-effect-1">
-            <img src="springer.jpg" alt="SEO Name">
+            <img src="springer.jpg" alt="SEO Name" class="image">
             <div class="overlay-caption">
-                <h4 class="uppercase"><strong>Springer India</strong></h4>
-                <h6 class="subtitle-1">See all our resedential PortfolioSee all our resedential Portfolio See all our resedential Portfolio</h6>
+                <h4 class="text"><strong>SPRINGER INDIA</strong></h4>
+                <h6 class="subtitle-2">See all our resedential PortfolioSee all our resedential Portfolio See all our resedential Portfolio</h6>
             </div>
         </a>
     </div>
     <div class="column one-third nopadding">
-        <a href="#" class="thumb-overlay text-light overlay-effect-1">
-            <img src="techexpo.jpg" alt="SEO Name">
+        <a href="#" class="thumb-overlay text-light overlay-effect-1" class="image">
+            <img src="techexpo.jpg" alt="SEO Name" >
             <div class="overlay-caption">
-                <h4 class="uppercase"><strong>BITS Hyderabad</strong></h4>
-                <h6 class="subtitle-1">We're also known for beatiful interior design</h6>
+                <h4 class="text"><strong>BITS HYDERABAD</strong></h4>
+                <h6 class="subtitle-2">We're also known for beatiful interior design</h6>
             </div>
         </a>
     </div>
     <div class="column one-third last-col nopadding">
         <a href="#" class="thumb-overlay text-light overlay-effect-1">
-            <img src="firsttestflight.jpg" alt="SEO Name">
+            <img src="firsttestflight.jpg" alt="SEO Name" class="image">
             <div class="overlay-caption">
-                <h4 class="uppercase"><strong>Best Student Team</strong></h4>
-                <h6 class="subtitle-1">Our public building shows the creativity</h6>
+                <h4 class="text"><strong>BEST STUDENT TEAM</strong></h4>
+                <h6 class="subtitle-2">Our public building shows the creativity</h6>
             </div>
         </a>
     </div>
 </div>
+<style>
+
+.image {
+  opacity: 0.9;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay-caption {
+  transition: .5s ease;
+  opacity: 0.1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.column :hover .image {
+  opacity: 0.3;
+}
+
+.column:hover .overlay-caption {
+  opacity: 1;
+}
+
+.text,.subtitle-2 {
+  background-color: #3F729B;
+  border-radius: 15px 50px;
+  color: white;
+  padding: 16px 32px;
+}
+</style>
 
 <div class="spacer-big"></div>
 
@@ -334,7 +370,7 @@ data-videooverlayopacity="0.4"
     }
     ul li:first-child{
     	margin-top: 0px;
-    	
+
     }
 }
 </style>
